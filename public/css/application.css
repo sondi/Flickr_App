@@ -1,0 +1,15 @@
+.container {
+  margin: 20px auto;
+  width: 700px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+  height: 1400px;
+}
+th {
+  text-align: left;
+}
+
+.container img{
+	float: left;
+	padding: 15px;
+}

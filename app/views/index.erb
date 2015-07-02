@@ -1,0 +1,15 @@
+<h1>Welcome to Flickr!</h1>
+
+<form method="post" enctype='multipart/form-data' action="upload">
+  <input type='file' name='photo[photo]'>
+  <br/>
+  <input type='submit' value='Upload!'>
+</form>
+
+<ul>
+  <% @photo.each do |photo| %>
+    <div> 
+      <img src="<%= photo.photo_url%>">
+    </div>
+  <% end %>
+</ul>
